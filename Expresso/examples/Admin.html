@@ -1,0 +1,34 @@
+<section>
+  <header>
+    <h2>⚙️ Admin</h2>
+  </header>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Views</th>
+        <th>Favorite?</th>
+        <th>Delete</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Mocha</td>
+        <td>3</td>
+        <!-- Look up how to use React's `defaultChecked` attribute 
+             to control the initial status of this checkbox: -->
+        <td><input name="favorite" type="checkbox" checked=""></td>
+        <td>❌</td>
+      </tr>
+      <tr>
+        <td>Chai</td>
+        <td>2</td>
+        <td><input name="favorite" type="checkbox"></td>
+        <td>❌</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- If there are no posts, show this placeholder text: -->
+  <div>No posts yet. Try making a new one!</div>
+</section>

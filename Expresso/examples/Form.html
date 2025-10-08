@@ -1,0 +1,73 @@
+<section>
+
+  <header>
+    <h2>✏️ New Recipe</h2>
+  </header>
+
+  <form>
+    <label>Name:
+      <input 
+        type="text" 
+        name="name" 
+        placeholder="My brand new recipe..." 
+        required="" 
+        autocomplete="off"
+        value=""
+      />
+    </label>
+        
+    <label>Image ID: <small> Psst! Grab one below... </small>
+      <input 
+        type="text" 
+        name="image_id"
+        placeholder="2IxTgsgFi-s" 
+        required="" 
+        autocomplete="off" 
+        value="" 
+      />
+    </label>
+        
+    <label>Ingredients: <i>(one per line)</i>
+      <textarea 
+        cols="48" 
+        rows="8" 
+        name="ingredients" 
+        placeholder="450 g all-purpose flour 
+45 g butter, at room temp" 
+        required="" 
+        autocomplete="off"
+      ></textarea>
+    </label>
+
+    <label>Steps: <i>(one per line)</i>
+      <textarea
+        cols="48" 
+        rows="8" 
+        name="steps" 
+        placeholder="In the bowl of your stand mixer, stir together the flours, salt, sugar, and yeast.
+Add the water, milk, and egg, but not the butter." 
+        required="" 
+        autocomplete="off"
+      ></textarea>
+    </label>
+    
+    <input type="submit" value="Save Recipe" />
+
+    <hr />
+
+    <small>🥤 Some possible image IDs</small>
+    <ul>
+      <li><code>2IxTgsgFi-s</code></li>
+      <li><code>zTap5OUPDAE</code></li>
+      <li><code>kPLccIMtS8E</code></li>
+      <li><code>Q4CLQ1BDybU</code></li>
+      <li><code>6hxK5l-sHys</code></li>
+    </ul>
+    
+    <small>
+      Or copy an
+      <a href="https://unsplash.com/s/photos/food">Unsplash</a> image's ID from its URL
+    </small>
+      
+  </form>
+</section>

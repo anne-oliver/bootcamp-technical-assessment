@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Mocha",
+    "description": "Chocolate-laden espresso",
+    "ingredients": [
+      "1.5 tablespoons of sugar",
+      "1 tablespoon of unsweetened cocoa powder",
+      "1 tablespoon water",
+      "1 cup of espresso or coffee",
+      "0.25 cups of milk"
+    ],
+    "steps": [
+      "In a small pot, heated over a stove, stir together sugar, cocoa powder and water until a smooth mixture is formed.",
+      "Stir in milk and coffee and heat until steaming. Whisk to create a foam, if desired",
+      "Pour into a cup and optionally top with whipped cream."
+    ],
+    "favorite": true,
+    "views": 2,
+    "image_url": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=384&q=80"
+  },
+  {
+    "name": "Chai",
+    "description": "Spiced milk tea",
+    "ingredients": [
+      "2 cups water",
+      "2 teaspoon loose leaf black tea",
+      "2 cardamom pods",
+      "1 clove",
+      "1 inch knob of ginger, chopped into slices",
+      "0.25 teaspoon black peppercorn, freshly cracked",
+      "0.5 cinnamon stick",
+      "1 cup whole milk",
+      "2 teaspoon sugar, or to taste"
+    ],
+    "steps": [
+      "Add the whole spices to a mortar and crush them lightly into smaller pieces.",
+      "In a small pot, bring the water to a boil on medium to high heat and add the black tea and spices. Simmer for two minutes, or until the tea leaves and spices have released flavor and color. Then, bring the heat down to medium and pour in the milk.",
+      "Bring the chai to a boil, so that it starts aerating and bubbling to the top. Remove the pot from heat until the bubbles come down. Replace the pot on the burner and bring the chai back up again to a boil and remove from heat a second time until the bubbles go back down.",
+      "Continue to simmer the chai until desired consistency and color, about 2-4 minutes. Some of the liquid will have evaporated by now, so the chai should be smooth and creamy. Remove the pot from heat.",
+      "Strain the chai with a sieve into glasses, mugs, or a tea pot. Mix in the sugar according to taste, and serve."
+    ],
+    "favorite": false,
+    "views": 3,
+    "image_url": "https://images.unsplash.com/photo-1561336526-2914f13ceb36?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "name": "Dalgona Coffee",
+    "description": "Whipped, foamy coffee",
+    "ingredients": [
+      "2 tablespoons of instant coffee",
+      "2 tablespoons of granulated sugar",
+      "2 tablespoons of boiling water",
+      "A pinch of cinnamon (optional)",
+      "1 cup of milk"
+    ],
+    "steps": [
+      "Add coffee, sugar and boiling water to a bowl.",
+      "With a hand mixer, at high speed, whip the mixture for 2 minutes or until it has become foamy.",
+      "Spoon the coffee onto the cup of milk in a tall glass to serve.",
+      "Swirl coffee into milk. Enjoy!"
+    ],
+    "favorite": false,
+    "views": 1,
+    "image_url": "https://images.unsplash.com/photo-1687467110633-8e90cecd042b?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  }
+]
