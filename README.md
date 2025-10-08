@@ -12,6 +12,7 @@ A full-stack recipe management app built during a one-day solo sprint. Users can
 - REST API routes
 - Mongoose models - define schema and persistence
 - Auth middleware - checks Auth header against .env secret
+- Custom input parser - normalizes user input (trimming, splitting, title-casing)
 - Promise-based async flow - React → Express → MongoDB + error handling
 
 ## Assessment Context:
