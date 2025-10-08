@@ -5,19 +5,17 @@ A full-stack recipe management app built during a one-day solo sprint. Users can
 ## Tech Stack
 - Frontend: React · Webpack · Babel
 - Backend: Node.js · Express
-- Database: MongoDB (Mongoose models)
-- Testing: Jest (unit tests for parseContent)
-- Utilities: dotenv · date-fns
+- Database: MongoDB - Mongoose models
+- Testing: Jest - unit tests for parseContent
 
 ## Architecture
-- Client / Server separation with REST API routes:
-/recipes, /recipes/:id, /recipes/:id/fav, DELETE /recipes/:id
-- Mongoose models define schema and persistence
-- Auth middleware checks an Auth header against .env secret
-- Fully promise-based async flow from React → Express → MongoDB, with error handling at each layer
+- REST API routes
+- Mongoose models - define schema and persistence
+- Auth middleware - checks Auth header against .env secret
+- Promise-based async flow - React → Express → MongoDB + error handling
 
 ## Assessment Context:
-Built as a timed full-stack challenge to demonstrate:
+Timed full-stack challenge demonstrating:
 - Front end / back end integration
-- Asynchronous data flow design
-- Schema-driven persistence with validation
+- Asynchronous design
+- Database persistence + validation
